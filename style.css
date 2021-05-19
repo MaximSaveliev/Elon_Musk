@@ -1,0 +1,240 @@
+header{
+	text-align: center;
+	margin-bottom: 2.7em; 
+}
+header>hr{
+	width: 70%;
+}
+header>.main_image{
+	height: 500px;
+}
+pre{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 0.91em;
+}
+ol{
+    list-style: none;
+    background-image: linear-gradient(45deg, rgba(225, 255, 255, 0.17), rgba(173, 217, 230, 0.27));
+    background-size: 25em;
+    background-repeat: no-repeat;
+    background-position-x: 1em;
+}
+ol li a{
+    text-decoration: none;
+    color: rgb(0, 137, 184);
+    font-size: 1.25em;
+}
+ol li a:hover{
+    color: rgb(0, 110, 145);
+}
+ol li:before{
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    vertical-align: -0.90em;
+    margin: 0.3em;
+    content:"";
+}
+ol li:nth-child(1)::before{
+    background-image: url('https://img-premium.flaticon.com/png/512/2922/2922289.png?token=exp=1621452040~hmac=a9058786272d519dca5fb60d16e77462');
+}
+ol li:nth-child(2)::before{
+    background-image: url('https://img-premium.flaticon.com/png/512/2909/2909549.png?token=exp=1621452384~hmac=4f8fdcf1d3cc2411edf6b9afea24af20');
+}
+ol li:nth-child(3)::before{
+    background-image: url('https://img-premium.flaticon.com/png/512/1671/1671534.png?token=exp=1621452433~hmac=836d6838c98b4fa7dfc7a62929f811e5');
+}
+ol li:nth-child(4)::before{
+    background-image: url('https://img-premium.flaticon.com/png/512/501/501613.png?token=exp=1621452505~hmac=bb4dfba54684b41841b3f65036c570d0');
+}
+ol li:nth-child(5)::before{
+    background-image: url('https://img-premium.flaticon.com/png/512/2752/2752761.png?token=exp=1621452587~hmac=bae65596ea2823f25c831d93acc39c8a');
+}
+.company_table>h2{
+	text-align: center;
+}
+.companies{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	text-align:center;
+	margin: 0 auto;
+}
+.companies img{
+	width: 370px;
+}
+.companies .table_text{
+	width: 700px;
+}
+button{
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.card_title{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+.card_1, .card_2{
+    width: 1000px;
+    display: flex;
+    position: relative;
+    background-color: lightcyan;
+    padding: 1.7em;
+    margin: 0 auto;
+    border-radius: 17px;
+    margin-bottom: 2em;
+}
+.card_1>div>img, .card_2>div>img{
+    width: 500px;
+    margin-right: 1em;
+    border-radius: 17px;
+}
+.card_1>div, .card_2>div{
+    margin: auto 0.5em;
+    text-align: center;
+}
+.card_1>div>.teslabtn{
+    background-color: rgb(207, 17, 17);
+}
+.card_1>div>.spacebtn{
+    background: linear-gradient(0.25turn, #3f87a6, #f69d3c);
+}
+.card_1>div>.neuralbtn{
+    background-color: rgb(17, 93, 207);
+}
+.card_1>div>.boringbtn{
+    background-color: rgb(37, 37, 37);
+}
+.card_1>div>.openbtn{
+    background: linear-gradient(117deg, #00DBDE 0%, #FC00FF 100%);
+}
+.card_1>div>button>a, .card_2>div>button>a{
+    text-decoration: none;
+    color: white;
+}
+.card_1>div>.teslabtn:hover{
+    background-color: rgb(225, 21, 21);
+}
+.card_1>div>.spacebtn:hover{
+    background: linear-gradient(0.75turn, #3f87a6, #f69d3c);
+}
+.card_1>div>.neuralbtn:hover{
+    background-color: rgb(10, 67, 151);
+}
+.card_1>div>.boringbtn:hover{
+    background-color: rgb(0, 0, 0);
+}
+.card_1>div>.openbtn:hover{
+    background: linear-gradient(334deg, #00DBDE 0%, #FC00FF 100%);
+}
+section>.video{
+	width: 560px;
+	height: 315px;
+	margin: 0 auto;
+}
+section>.carousel{
+    display: flex;
+    width: 1300px;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+.trends{
+    width: 1000px;
+    margin: 1.37em auto;
+}
+.i_info{
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.space_info{
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.heart{
+    text-align: center; 
+}
+.heart>.fa-heart{
+    color: red;
+	font-size: 1.25em;
+	animation: heartbeat 1s infinite;  
+}
+@keyframes heartbeat{
+    0%,40%,80%,100%{transform: scale( .75 );}
+    20%,60%{transform: scale( 1 );}
+}
+.slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid rgb(255, 136, 0);
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar:hover{
+  background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+.map{
+    width: 1000px;
+    height: 450px;
+    margin: 1em auto;
+}
